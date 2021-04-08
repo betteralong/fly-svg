@@ -1,0 +1,35 @@
+{
+  "name": "fly-svg",
+  "version": "0.0.1",
+  "description": "a svg animation component of vue",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/fly-svg.umd.js",
+  "module": "./dist/fly-svg.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/fly-svg.es.js",
+      "require": "./dist/fly-svg.umd.js"
+    }
+  },
+  "keywords": [
+    "svg",
+    "vue"
+  ],
+  "dependencies": {
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.1",
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^2.1.5"
+  },
+  "author": "JunLong Lin",
+  "license": "Apache"
+
+}
